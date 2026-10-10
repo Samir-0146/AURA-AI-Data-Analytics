@@ -1,0 +1,26 @@
+# Environments
+venv/
+.venv/
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# AURA runtime data
+database/*.db
+database/*.sqlite
+reports/*.pdf
+data/*.csv
+data/*.xlsx
+!data/.gitkeep
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.streamlit/secrets.toml
